@@ -1,4 +1,3 @@
-import React from "react";
 import Img1 from "../../assets/women/women.png";
 import Img2 from "../../assets/women/women2.jpg";
 import Img3 from "../../assets/women/women3.jpg";
@@ -54,8 +53,12 @@ function Products() {
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">Top Selling Products for you</p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">Products</h1>
+          <p data-aos="fade-up" className="text-sm text-primary">
+            Top Selling Products for you
+          </p>
+          <h1 data-aos="fade-up" className="text-3xl font-bold">
+            Products
+          </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
             iste itaque maxime?
@@ -67,10 +70,12 @@ function Products() {
             {/* car section */}
             {ProductsData.map((data) => (
               // eslint-disable-next-line react/jsx-key
-              <div 
-              data-aos="fade-up"
-              data-aos-delay={data.aosDelay}
-              key={data.id} className="space-y-3">
+              <div
+                data-aos="fade-up"
+                data-aos-delay={data.aosDelay}
+                key={data.id}
+                className="space-y-3"
+              >
                 <img
                   src={data.img}
                   alt="fotos"

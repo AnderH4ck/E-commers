@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import Products from "../components/Products/Products";
 import AOS from "aos";
-import "aos/dist/aos.css"
+import "aos/dist/aos.css";
+import TopProducts from "../components/TopProducts/TopProducts";
 function Home() {
   React.useEffect(() => {
     AOS.init({
@@ -13,12 +14,14 @@ function Home() {
       delay: 100,
     });
     AOS.refresh();
-  }),[];
+  }),
+    [];
   return (
     <div>
       <Navbar />
       <Hero />
       <Products />
+      <TopProducts />
     </div>
   );
 }
