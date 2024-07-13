@@ -45,4 +45,4 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE
 
 ## Contacto
 Si tienes preguntas o sugerencias, no dudes en abrir un issue o contactar al autor:
-- Anderson Tasilla: [anderson@example.com](mailto:andersontasilla.dev@gmail.com)
+- Anderson Tasilla: [andersontasilla.dev@gmail.com](mailto:andersontasilla.dev@gmail.com)
