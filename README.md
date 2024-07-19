@@ -29,8 +29,9 @@ Este es un proyecto de e-commerce desarrollado con React, Vite y Tailwind CSS. P
     npm run dev
     ```
 
-## Uso
-1. Abre tu navegador y ve a `https://e-commers-ander.netlify.app/`.
+## Link E-commers
+[E-commers](https://e-commers-ander.netlify.app/)
+
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Para contribuir:
